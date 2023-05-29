@@ -377,8 +377,10 @@ def atualizar_janela():
     if frame_administrativo.winfo_ismapped():
         listar_produtos_admin()
         listar_usuarios()
-
     root.after(10000, atualizar_janela)
+listar_produtos()
+root.after(10000, listar_produtos)
+root.after(10000, atualizar_janela)
 
 
 root.mainloop()

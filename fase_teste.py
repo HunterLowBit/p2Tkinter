@@ -1,7 +1,7 @@
 import tkinter as tk
 
 
-janela = tk
-janela.geometry('400x000')
+janela = tk.Tk()
+janela.geometry('400x400')
 
 janela.main()
